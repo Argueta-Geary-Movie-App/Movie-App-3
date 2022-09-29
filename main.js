@@ -15,6 +15,7 @@ function fetchMovies() {
             console.log(data);
             const html = data.map(movie => {
                 return `
+                        <!-- Movie Card -->
                     <div id="card" class="card-deck">
                         <div class="card">
                             <img class="card-img-top" src=".../100px180/" alt="Movie Title">
@@ -38,9 +39,6 @@ function fetchMovies() {
         });
 }
 fetchMovies();
-
-
-
 
 /* LOADER */
 document.onreadystatechange = function () {
