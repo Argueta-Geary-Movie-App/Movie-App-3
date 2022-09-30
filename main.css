@@ -1,368 +1,368 @@
-@media screen and (min-width: 360px) and (max-width: 576px){
+/*@media screen and (min-width: 360px) and (max-width: 576px){*/
 
-    #loader {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        margin-top: 50%;
-        height: 250px;
-    }
+/*    #loader {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-content: center;*/
+/*        margin-top: 50%;*/
+/*        height: 250px;*/
+/*    }*/
 
-    .content {
-        height: 50vh;
-        background-image: url("Images/blockbuster2.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-
-
-    .search-movie {
-        float: left;
-        line-height: .8rem;
-        padding-top: 36vh;
-        margin-left: 25px;
-        position: absolute;
-    }
-
-    .search-movie h2 {
-        font-family: 'Nabla', cursive;
-        font-size: 2.5rem;
-        text-shadow: 1.7px 1.7px red;
-    }
-
-    .search-movie input {
-        width: 66%;
-        height: 15%;
-        margin-right: 0.2rem;
-        padding-left: .5rem;
-        border: groove .5em #0065FF;
-        border-radius: 1em;
-        font-family: 'Bebas Neue', cursive;
-        font-size: .75rem;
-    }
+/*    .content {*/
+/*        height: 50vh;*/
+/*        background-image: url("Images/blockbuster2.webp");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        position: relative;*/
+/*    }*/
 
 
-    button.find-movie {
-        display: inline-block;
-        border: 0.11em solid #FFDF00;
-        margin: 0 0.2em 0.2em 0;
-        height: 2rem;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: 'Bebas Neue', cursive;
-        font-size: .65rem;
-        font-weight: 300;
-        color: #FFAA01;
-        text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-        background-color: #0065FF;
-        text-align: center;
-        transition: all 0.15s;
-        cursor: pointer;
-    }
+/*    .search-movie {*/
+/*        float: left;*/
+/*        line-height: .8rem;*/
+/*        padding-top: 36vh;*/
+/*        margin-left: 25px;*/
+/*        position: absolute;*/
+/*    }*/
 
-    button.find-movie:hover {
-        text-shadow: 0 0 2em rgba(255, 255, 255, 1);
-        color: #0065FF;
-        background-color: #FFDF00;
-        border-color: #0065FF;
-    }
+/*    .search-movie h2 {*/
+/*        font-family: 'Nabla', cursive;*/
+/*        font-size: 2.5rem;*/
+/*        text-shadow: 1.7px 1.7px red;*/
+/*    }*/
 
-    #app {
-        background-color: #063DAA;
-        padding: 2rem;
-
-        border-width: 20px;
-        border-style: solid;
-        border-image: linear-gradient(to right, #FFAA01, #FFDF00) 1;
-    }
-
-    .card {
-        border: none;
-        text-decoration: none;
-    }
-
-    .card h2 {
-        font-family: 'Bebas Neue', cursive;
-        font-size: 2.5rem;
-        text-align: center;
-        margin: .5rem;
-        color: #063DAA;
-    }
-
-    .card img {
-        height: 50vh;
-        width: 100%;
-    }
-
-    .card div {
-        font-family: 'IBM Plex Serif', serif;
-        font-weight: bold;
-        color: white;
-        margin-top: .75em;
-        margin-left: 1.3rem;
-    }
-
-    .card button {
-        float: right;
-        margin: 0 .2rem;
-        background-color: black;
-        border: 1px solid white;
-        box-sizing: border-box;
-        font-family: 'Bebas Neue', cursive;
-        color: white;
-        font-size: 1rem;
-        font-weight: 700;
-        line-height: 10px;
-        padding: 12px 12px;
-        position: relative;
-        text-decoration: none;
-    }
-
-    .card button:hover {
-        background-color: transparent;
-        cursor: pointer;
-        color: #FFDF00;
-        border: 1px solid #FFDF00;
-    }
-}
+/*    .search-movie input {*/
+/*        width: 66%;*/
+/*        height: 15%;*/
+/*        margin-right: 0.2rem;*/
+/*        padding-left: .5rem;*/
+/*        border: groove .5em #0065FF;*/
+/*        border-radius: 1em;*/
+/*        font-family: 'Bebas Neue', cursive;*/
+/*        font-size: .75rem;*/
+/*    }*/
 
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+/*    button.find-movie {*/
+/*        display: inline-block;*/
+/*        border: 0.11em solid #FFDF00;*/
+/*        margin: 0 0.2em 0.2em 0;*/
+/*        height: 2rem;*/
+/*        box-sizing: border-box;*/
+/*        text-decoration: none;*/
+/*        font-family: 'Bebas Neue', cursive;*/
+/*        font-size: .65rem;*/
+/*        font-weight: 300;*/
+/*        color: #FFAA01;*/
+/*        text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);*/
+/*        background-color: #0065FF;*/
+/*        text-align: center;*/
+/*        transition: all 0.15s;*/
+/*        cursor: pointer;*/
+/*    }*/
 
-    #loader {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        margin-top: 15em;
-        height: 350px;
-        padding: 3rem;
-    }
+/*    button.find-movie:hover {*/
+/*        text-shadow: 0 0 2em rgba(255, 255, 255, 1);*/
+/*        color: #0065FF;*/
+/*        background-color: #FFDF00;*/
+/*        border-color: #0065FF;*/
+/*    }*/
 
-    .content {
-        height: 75vh;
-        background-image: url("Images/blockbuster2.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
+/*    #app {*/
+/*        background-color: #063DAA;*/
+/*        padding: 2rem;*/
 
-    .search-movie {
-        float: left;
-        line-height: .8rem;
-        padding-top: 55vh;
-        margin-left: 25px;
-        position: absolute;
-    }
+/*        border-width: 20px;*/
+/*        border-style: solid;*/
+/*        border-image: linear-gradient(to right, #FFAA01, #FFDF00) 1;*/
+/*    }*/
 
-    .search-movie h2 {
-        font-family: 'Nabla', cursive;
-        font-size: 4rem;
-        text-shadow: 2px 2px red;
-    }
+/*    .card {*/
+/*        border: none;*/
+/*        text-decoration: none;*/
+/*    }*/
 
-    .search-movie input {
-        width: 65%;
-        height: 25%;
-        margin-right: 0.2rem;
-        padding-left: .5rem;
-        border: groove .5em #0065FF;
-        border-radius: 1em;
-        font-family: 'Bebas Neue', cursive;
-        font-size: .75rem;
-    }
+/*    .card h2 {*/
+/*        font-family: 'Bebas Neue', cursive;*/
+/*        font-size: 2.5rem;*/
+/*        text-align: center;*/
+/*        margin: .5rem;*/
+/*        color: #063DAA;*/
+/*    }*/
 
-    button.find-movie {
-        display: inline-block;
-        border: 0.11em solid #FFDF00;
-        margin: 0 0.2em 0.2em 0;
-        height: 2rem;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: 'Bebas Neue', cursive;
-        font-size: .65rem;
-        font-weight: 300;
-        color: #FFAA01;
-        text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-        background-color: #0065FF;
-        text-align: center;
-        transition: all 0.15s;
-        cursor: pointer;
-    }
+/*    .card img {*/
+/*        height: 50vh;*/
+/*        width: 100%;*/
+/*    }*/
 
-}
+/*    .card div {*/
+/*        font-family: 'IBM Plex Serif', serif;*/
+/*        font-weight: bold;*/
+/*        color: white;*/
+/*        margin-top: .75em;*/
+/*        margin-left: 1.3rem;*/
+/*    }*/
 
+/*    .card button {*/
+/*        float: right;*/
+/*        margin: 0 .2rem;*/
+/*        background-color: black;*/
+/*        border: 1px solid white;*/
+/*        box-sizing: border-box;*/
+/*        font-family: 'Bebas Neue', cursive;*/
+/*        color: white;*/
+/*        font-size: 1rem;*/
+/*        font-weight: 700;*/
+/*        line-height: 10px;*/
+/*        padding: 12px 12px;*/
+/*        position: relative;*/
+/*        text-decoration: none;*/
+/*    }*/
 
-/*@media all and (max-width:30em){*/
-/*    button.find-movie{*/
-/*        display:block;*/
-/*        margin:0.4em auto;*/
-/*        }*/
+/*    .card button:hover {*/
+/*        background-color: transparent;*/
+/*        cursor: pointer;*/
+/*        color: #FFDF00;*/
+/*        border: 1px solid #FFDF00;*/
+/*    }*/
 /*}*/
 
 
+/*@media screen and (min-width: 576px) and (max-width: 992px) {*/
 
+/*    #loader {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-content: center;*/
+/*        margin-top: 15em;*/
+/*        height: 350px;*/
+/*        padding: 3rem;*/
+/*    }*/
 
+/*    .content {*/
+/*        height: 75vh;*/
+/*        background-image: url("Images/blockbuster2.webp");*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        position: relative;*/
+/*    }*/
 
+/*    .search-movie {*/
+/*        float: left;*/
+/*        line-height: .8rem;*/
+/*        padding-top: 55vh;*/
+/*        margin-left: 25px;*/
+/*        position: absolute;*/
+/*    }*/
 
+/*    .search-movie h2 {*/
+/*        font-family: 'Nabla', cursive;*/
+/*        font-size: 4rem;*/
+/*        text-shadow: 2px 2px red;*/
+/*    }*/
 
+/*    .search-movie input {*/
+/*        width: 65%;*/
+/*        height: 25%;*/
+/*        margin-right: 0.2rem;*/
+/*        padding-left: .5rem;*/
+/*        border: groove .5em #0065FF;*/
+/*        border-radius: 1em;*/
+/*        font-family: 'Bebas Neue', cursive;*/
+/*        font-size: .75rem;*/
+/*    }*/
 
+/*    button.find-movie {*/
+/*        display: inline-block;*/
+/*        border: 0.11em solid #FFDF00;*/
+/*        margin: 0 0.2em 0.2em 0;*/
+/*        height: 2rem;*/
+/*        box-sizing: border-box;*/
+/*        text-decoration: none;*/
+/*        font-family: 'Bebas Neue', cursive;*/
+/*        font-size: .65rem;*/
+/*        font-weight: 300;*/
+/*        color: #FFAA01;*/
+/*        text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);*/
+/*        background-color: #0065FF;*/
+/*        text-align: center;*/
+/*        transition: all 0.15s;*/
+/*        cursor: pointer;*/
+/*    }*/
 
-
-
-
-/*!* Small devices (phones and pocket devices, 576 and up) *!*/
-/*!*@media screen and (min-width: 576px) {*!*/
-/*body {*/
-/*    !*box-sizing: border-box;*!*/
-/*    !*max-width: 576px;*!*/
-/*    !*margin: auto;*!*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    background-color: white;*/
-/*    color: white;*/
-/*}*/
-
-/*#loader {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-content: center;*/
-/*    margin-top: 15%;*/
-/*    height: 50vh;*/
-/*}*/
-
-
-/*.search-movie {*/
-/*    float: left;*/
-/*    !*padding-top: 150px;*!*/
-/*    line-height: 0;*/
-/*    padding-top: 27vh;*/
-/*    margin-left: 25px;*/
-/*    position: absolute;*/
-/*}*/
-
-/*.search-movie h2 {*/
-/*    font-family: 'Nabla', cursive;*/
-/*    font-size: 4rem;*/
-/*    !*margin: 0;*!*/
-/*    !*padding-right: 3rem;*!*/
-/*    text-shadow: 2.5px 2.5px red;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.search-movie input {*/
-/*    width: 65%;*/
-/*    height: 1.5rem;*/
-/*    margin-right: 0.4rem;*/
-/*    padding-left: .5rem;*/
-/*    !*height: 2em;*!*/
-
-/*    !*HERE*!*/
-/*    border: groove 1em #0065FF;*/
-/*    border-radius: 2em;*/
-/*    font-family: 'Bebas Neue', cursive;*/
-/*}*/
-
-/*button.find-movie{*/
-/*    display: inline-block;*/
-/*    border: 0.11em solid #FFDF00;*/
-/*    margin: 0 0.2em 0.2em 0;*/
-/*    height: 2rem;*/
-/*    !*border-radius: 10px;*!*/
-/*    box-sizing: border-box;*/
-/*    text-decoration: none;*/
-/*    font-family: 'Bebas Neue', cursive;*/
-/*    font-weight: 300;*/
-/*    color: #FFAA01;*/
-/*    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);*/
-/*    background-color: #0065FF;*/
-/*    text-align: center;*/
-/*    transition: all 0.15s;*/
-/*    cursor: pointer;*/
-/*}*/
-/*button.find-movie:hover{*/
-/*    text-shadow: 0 0 2em rgba(255,255,255,1);*/
-/*    color: #0065FF;*/
-/*    background-color: #FFDF00;*/
-/*    border-color: #FFDF00;*/
-/*}*/
-/*@media all and (max-width:30em){*/
-/*    button.find-movie{*/
-/*        display:block;*/
-/*        margin:0.4em auto;*/
-/*        }*/
 /*}*/
 
 
-/*.spacer {*/
-/*    aspect-ratio: 900/450;*/
-/*    width: 100%;*/
-
-/*    !*START*!*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*}*/
-
-
-/*#app {*/
-/*    background-color: #063DAA;*/
-/*    display: flex;*/
-/*    padding: 5rem;*/
-/*    flex-wrap: wrap;*/
-/*    padding-left: 15%;*/
-
-/*    border-width: 20px;*/
-/*    border-style: solid;*/
-/*    border-image: linear-gradient(to right, #FFAA01, #FFDF00) 1;*/
-/*}*/
-
-/*.card {*/
-/*    !*display: flex;*!*/
-/*    position: relative;*/
-/*    !*flex-direction: column;*!*/
-/*    height: 500px;*/
-/*    width: 350px;*/
-/*    min-width: 300px;*/
-/*    padding: 1.5rem;*/
-/*    margin: 2rem;*/
-
-/*    border-radius: 50px;*/
-/*    background: #17141D;*/
-/*    box-shadow: -1rem 0 3rem black;*/
-
-/*    !*transition: .2s;*!*/
-/*}*/
-
-/*!*.card:hover {*!*/
-/*!*    transform: translateY(-1rem);*!*/
+/*!*@media all and (max-width:30em){*!*/
+/*!*    button.find-movie{*!*/
+/*!*        display:block;*!*/
+/*!*        margin:0.4em auto;*!*/
+/*!*        }*!*/
 /*!*}*!*/
-/*!*.card:hover~.card {*!*/
-/*!*    transform: translateX(125px);*!*/
-/*!*}*!*/
-/*!*.card:not(:first-child) {*!*/
-/*!*    margin-left: -80px;*!*/
-/*!*}*!*/
-/*.card h2 {*/
-/*    font-family: 'Bebas Neue', cursive;*/
-/*    font-size: 2.5rem;*/
-/*}*/
 
-/*!**/
-/*USE THIS to style cards. https://codepen.io/codev_land/pen/yLXeyWX*/
-/*On hover, the card (movie poster) moves upwards while the bottom extends downwards, displaying info and buttons.*/
-/*Or this one: https://codepen.io/markmead/pen/MqmOVB*/
-/* *!*/
-/*.card div {*/
-/*    font-family: 'IBM Plex Serif', serif;*/
-/*}*/
 
-/*button {*/
-/*    background-color: #FFAA01FF;*/
-/*    color: #063DAA;*/
-/*    top: 50%;*/
-/*    border-radius: 5px;*/
-/*    padding: 5px;*/
-/*}*/
 
+
+
+
+
+
+
+
+
+
+/*!*!* Small devices (phones and pocket devices, 576 and up) *!*!*/
+/*!*!*@media screen and (min-width: 576px) {*!*!*/
+/*!*body {*!*/
+/*!*    !*box-sizing: border-box;*!*!*/
+/*!*    !*max-width: 576px;*!*!*/
+/*!*    !*margin: auto;*!*!*/
+/*!*    padding: 0;*!*/
+/*!*    margin: 0;*!*/
+/*!*    background-color: white;*!*/
+/*!*    color: white;*!*/
 /*!*}*!*/
+
+/*!*#loader {*!*/
+/*!*    display: flex;*!*/
+/*!*    justify-content: center;*!*/
+/*!*    align-content: center;*!*/
+/*!*    margin-top: 15%;*!*/
+/*!*    height: 50vh;*!*/
+/*!*}*!*/
+
+
+/*!*.search-movie {*!*/
+/*!*    float: left;*!*/
+/*!*    !*padding-top: 150px;*!*!*/
+/*!*    line-height: 0;*!*/
+/*!*    padding-top: 27vh;*!*/
+/*!*    margin-left: 25px;*!*/
+/*!*    position: absolute;*!*/
+/*!*}*!*/
+
+/*!*.search-movie h2 {*!*/
+/*!*    font-family: 'Nabla', cursive;*!*/
+/*!*    font-size: 4rem;*!*/
+/*!*    !*margin: 0;*!*!*/
+/*!*    !*padding-right: 3rem;*!*!*/
+/*!*    text-shadow: 2.5px 2.5px red;*!*/
+/*!*    text-align: center;*!*/
+/*!*}*!*/
+
+/*!*.search-movie input {*!*/
+/*!*    width: 65%;*!*/
+/*!*    height: 1.5rem;*!*/
+/*!*    margin-right: 0.4rem;*!*/
+/*!*    padding-left: .5rem;*!*/
+/*!*    !*height: 2em;*!*!*/
+
+/*!*    !*HERE*!*!*/
+/*!*    border: groove 1em #0065FF;*!*/
+/*!*    border-radius: 2em;*!*/
+/*!*    font-family: 'Bebas Neue', cursive;*!*/
+/*!*}*!*/
+
+/*!*button.find-movie{*!*/
+/*!*    display: inline-block;*!*/
+/*!*    border: 0.11em solid #FFDF00;*!*/
+/*!*    margin: 0 0.2em 0.2em 0;*!*/
+/*!*    height: 2rem;*!*/
+/*!*    !*border-radius: 10px;*!*!*/
+/*!*    box-sizing: border-box;*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    font-family: 'Bebas Neue', cursive;*!*/
+/*!*    font-weight: 300;*!*/
+/*!*    color: #FFAA01;*!*/
+/*!*    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);*!*/
+/*!*    background-color: #0065FF;*!*/
+/*!*    text-align: center;*!*/
+/*!*    transition: all 0.15s;*!*/
+/*!*    cursor: pointer;*!*/
+/*!*}*!*/
+/*!*button.find-movie:hover{*!*/
+/*!*    text-shadow: 0 0 2em rgba(255,255,255,1);*!*/
+/*!*    color: #0065FF;*!*/
+/*!*    background-color: #FFDF00;*!*/
+/*!*    border-color: #FFDF00;*!*/
+/*!*}*!*/
+/*!*@media all and (max-width:30em){*!*/
+/*!*    button.find-movie{*!*/
+/*!*        display:block;*!*/
+/*!*        margin:0.4em auto;*!*/
+/*!*        }*!*/
+/*!*}*!*/
+
+
+/*!*.spacer {*!*/
+/*!*    aspect-ratio: 900/450;*!*/
+/*!*    width: 100%;*!*/
+
+/*!*    !*START*!*!*/
+/*!*    background-repeat: no-repeat;*!*/
+/*!*    background-position: center;*!*/
+/*!*    background-size: cover;*!*/
+/*!*}*!*/
+
+
+/*!*#app {*!*/
+/*!*    background-color: #063DAA;*!*/
+/*!*    display: flex;*!*/
+/*!*    padding: 5rem;*!*/
+/*!*    flex-wrap: wrap;*!*/
+/*!*    padding-left: 15%;*!*/
+
+/*!*    border-width: 20px;*!*/
+/*!*    border-style: solid;*!*/
+/*!*    border-image: linear-gradient(to right, #FFAA01, #FFDF00) 1;*!*/
+/*!*}*!*/
+
+/*!*.card {*!*/
+/*!*    !*display: flex;*!*!*/
+/*!*    position: relative;*!*/
+/*!*    !*flex-direction: column;*!*!*/
+/*!*    height: 500px;*!*/
+/*!*    width: 350px;*!*/
+/*!*    min-width: 300px;*!*/
+/*!*    padding: 1.5rem;*!*/
+/*!*    margin: 2rem;*!*/
+
+/*!*    border-radius: 50px;*!*/
+/*!*    background: #17141D;*!*/
+/*!*    box-shadow: -1rem 0 3rem black;*!*/
+
+/*!*    !*transition: .2s;*!*!*/
+/*!*}*!*/
+
+/*!*!*.card:hover {*!*!*/
+/*!*!*    transform: translateY(-1rem);*!*!*/
+/*!*!*}*!*!*/
+/*!*!*.card:hover~.card {*!*!*/
+/*!*!*    transform: translateX(125px);*!*!*/
+/*!*!*}*!*!*/
+/*!*!*.card:not(:first-child) {*!*!*/
+/*!*!*    margin-left: -80px;*!*!*/
+/*!*!*}*!*!*/
+/*!*.card h2 {*!*/
+/*!*    font-family: 'Bebas Neue', cursive;*!*/
+/*!*    font-size: 2.5rem;*!*/
+/*!*}*!*/
+
+/*!*!**!*/
+/*!*USE THIS to style cards. https://codepen.io/codev_land/pen/yLXeyWX*!*/
+/*!*On hover, the card (movie poster) moves upwards while the bottom extends downwards, displaying info and buttons.*!*/
+/*!*Or this one: https://codepen.io/markmead/pen/MqmOVB*!*/
+/*!* *!*!*/
+/*!*.card div {*!*/
+/*!*    font-family: 'IBM Plex Serif', serif;*!*/
+/*!*}*!*/
+
+/*!*button {*!*/
+/*!*    background-color: #FFAA01FF;*!*/
+/*!*    color: #063DAA;*!*/
+/*!*    top: 50%;*!*/
+/*!*    border-radius: 5px;*!*/
+/*!*    padding: 5px;*!*/
+/*!*}*!*/
+
+/*!*!*}*!*!*/

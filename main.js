@@ -16,18 +16,19 @@ function fetchMovies() {
             const html = data.map(movie => {
                 return `
                         <!-- Movie Card -->
-                    <div id="card" class="card-deck">
+                    <div id="card" class="card-deck" style="margin: 4rem;">
                         <div class="card">
-                            <img class="card-img-top" src=".../100px180/" alt="Movie Title">
+                        <h5 class="card-title">${movie.title}</h5>
                             <div class="card-body">
-                                <h5 class="card-title">${movie.title}</h5>
+                                <img class="card-img-top" src="${movie.poster}" alt="Movie Title" style="width: 250px; height: 30vh;">
                                 <p class="director">Director: ${movie.director}</p>
-                                <p class="rating">Rating: ${movie.rating}</p>
+                                <p class="rated">Rated: ${movie.rated}</p>
                                 <p class="genre">Genre: ${movie.genre}</p>
-                                <p class="plot">Plot: ${movie.plot}</p>
+                                 <p class="rating">Rating: ${movie.rating}</p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Add buttons here soon</small>
+                                <button type="button" id="edit">Edit</button>
+                                <button type="button" id="delete">Delete</button>
                             </div>
                         </div>
                     </div>
@@ -35,7 +36,7 @@ function fetchMovies() {
             })
                 .join("");
             // console.log(html);
-            $('#app').html(html);
+            $('#favoriteWatchlist').html(html);
         });
 }
 fetchMovies();
