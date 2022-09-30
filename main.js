@@ -21,7 +21,7 @@ function fetchMovies() {
                             <img class="card-img-top" src=".../100px180/" alt="Movie Title">
                             <div class="card-body">
                                 <h5 class="card-title">${movie.title}</h5>
-                                <p class="director">Director: ${movie.director}></p>
+                                <p class="director">Director: ${movie.director}</p>
                                 <p class="rating">Rating: ${movie.rating}</p>
                                 <p class="genre">Genre: ${movie.genre}</p>
                                 <p class="plot">Plot: ${movie.plot}</p>
