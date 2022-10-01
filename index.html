@@ -19,28 +19,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@1,200&family=Nabla&display=swap"
           rel="stylesheet">
+
+
+    <style>
+        .hide-search-card {
+            visibility: hidden;
+        }
+    </style>
+
 </head>
 <body>
     <!-- LOADER IMAGE -->
     <div id="loader">
         <img id="loading-image" src="media/loading4.gif" alt="Loading...">
     </div>
-    <!--JUMBOTRON -->
-    <div class="content col-sm-12 col-md-12 col-lg-12" id="smallIMG">
-        <div class="search-movie">
-            <h2>Movie Search Here</h2>
-            <!--TEXT INPUT BOX TO ADD NEW MOVIE-->
-            <form id="searchForm" action="">
-                <input id="searchText" class='form-control' type="text" placeholder="enter movie title here">
-                <button id="find-movie" class='find-movie' type="button">Submit</button>
-            </form>
+
+
+<!--    &lt;!&ndash;JUMBOTRON &ndash;&gt;-->
+<!--    <div class="content col-sm-12 col-md-12 col-lg-12" id="smallIMG">-->
+<!--        <div class="search-movie">-->
+<!--            <h2>Movie Search Here</h2>-->
+<!--            &lt;!&ndash;TEXT INPUT BOX TO ADD NEW MOVIE&ndash;&gt;-->
+<!--            <form id="searchForm" action="">-->
+<!--                <input id="searchText" class='form-control' type="text" placeholder="enter movie title here">-->
+<!--                <button id="find-movie" class='find-movie' type="button">Submit</button>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="search-container">
+        <div class="search-body" id="searchContent">
+            <h1>HBO-Minimum</h1>
+            <input type="text" class="form-control search-input" placeholder="Find a movie.." onkeyup="searchMovie()">
+
+
+            <!--HARDCODING FOR SHOWING PURPOSES FOR THE ADDED CLASS ON THE JS FILE-->
+            <div class="card" id="cardSearchMovie">
+                <div class="cardBody">
+                    <h3>Title</h3>
+                    <img src= "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg" class="search-poster">
+                    <p class="search-year">2020</p>
+                    <button type="submit" id="add">Add Movie</button>
+                </div>
+
+            </div>
+
         </div>
     </div>
-    <!--SEARCHING MOVIES SECTION WITH ADD BUTTON-->
-    <div id="searchMovies">
-        <!--ADD MOVIE BUTTON-->
-        <button type="button" id="add" style="visibility: hidden">Add</button>
-    </div>
+
+
+<br>
 
     <div id="favoriteWatchlist">
         <!--EDIT AND DELETE BUTTONS-->
@@ -49,6 +77,8 @@
             <button type="button" id="delete">Delete</button>
         </div>
     </div>
+
+
 <!-- jQUERY CDN -->
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
