@@ -8,7 +8,8 @@
 
     <title>Not Blockbuster App</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Favicon Links -->
     <link rel="icon" type="image/png" sizes="16x16" href="media/favicon_io/favicon-16x16.png">
     <!-- EXTERNAL CSS -->
@@ -20,57 +21,34 @@
           rel="stylesheet">
 </head>
 <body>
-<!-- LOADER IMAGE -->
-<div id="loader">
-    <img id="loading-image" src="media/loading4.gif" alt="Loading...">
-</div>
-<!--JUMBOTRON -->
-<div class="content col-sm-12 col-md-12 col-lg-12" id="smallIMG">
-    <div class="search-movie">
-        <h2>Let's Rewind</h2>
-
-        <!--TEXT INPUT BOX TO ADD NEW MOVIE-->
-        <form id="searchForm" action="">
-            <input id="searchText" class='form-control' type="text" placeholder="Search Movies...">
-            <button id="find-movie" class='find-movie' type="button">Submit</button>
-        </form>
+    <!-- LOADER IMAGE -->
+    <div id="loader">
+        <img id="loading-image" src="media/loading4.gif" alt="Loading...">
     </div>
-</div>
-
-
-<!--SEARCHING MOVIES SECTION WITH ADD BUTTON-->
-<div id="searchMovies">
-
-    <!--ADD MOVIE BUTTON-->
-    <button type="button" id="add" style="visibility: hidden">Add</button>
-
-</div>
-
-
-
-
-        <div id="favoriteWatchlist">
-
-            <!--EDIT AND DELETE BUTTONS-->
-            <div class="card-footer">
-                <button type="button" id="edit">Edit</button>
-                <button type="button" id="delete">Delete</button>
-            </div>
-
+    <!--JUMBOTRON -->
+    <div class="content col-sm-12 col-md-12 col-lg-12" id="smallIMG">
+        <div class="search-movie">
+            <h2>Movie Search Here</h2>
+            <!--TEXT INPUT BOX TO ADD NEW MOVIE-->
+            <form id="searchForm" action="">
+                <input id="searchText" class='form-control' type="text" placeholder="enter movie title here">
+                <button id="find-movie" class='find-movie' type="button">Submit</button>
+            </form>
         </div>
-
-
     </div>
-</div>
+    <!--SEARCHING MOVIES SECTION WITH ADD BUTTON-->
+    <div id="searchMovies">
+        <!--ADD MOVIE BUTTON-->
+        <button type="button" id="add" style="visibility: hidden">Add</button>
+    </div>
 
-
-
-
-
-
-
-
-
+    <div id="favoriteWatchlist">
+        <!--EDIT AND DELETE BUTTONS-->
+        <div class="card-footer">
+            <button type="button" id="edit">Edit</button>
+            <button type="button" id="delete">Delete</button>
+        </div>
+    </div>
 <!-- jQUERY CDN -->
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
