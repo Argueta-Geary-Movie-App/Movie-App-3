@@ -16,17 +16,17 @@ function fetchFavoriteMovies() {
             const favoriteHTML = data.map(favMovie => {
                 return `
                         <!-- Movie Card -->
-                    <div id="card" class="card-deck" style="margin: 4rem;">
-                        <div class="card">
-                        <h5 class="card-title">${favMovie.title}</h5>
-                            <div class="card-body">
-                                <img class="card-img-top" src="${favMovie.poster}" alt="Movie Title" style="width: 250px; height: 30vh;">
-                                <p class="director">Director: ${favMovie.director}</p>
-                                <p class="rated">Rated: ${favMovie.rated}</p>
-                                <p class="genre">Genre: ${favMovie.genre}</p>
-                                 <p class="rating">Rating: ${favMovie.rating}</p>
+                    <div id="favCard" class="card" style="margin: 4rem;">
+                        <div class="fav-card-content">
+                        <h5 class="fav-title">${favMovie.title}</h5>
+                            <div class="fav-body">
+                                <img class="fav-poster" src="${favMovie.poster}" alt="Movie Title" style="width: 250px; height: 30vh;">
+                                <p class="fav-director">Director: ${favMovie.director}</p>
+                                <p class="fav-rated">Rated: ${favMovie.rated}</p>
+                                <p class="fav-genre">Genre: ${favMovie.genre}</p>
+                                 <p class="fav-rating">Rating: ${favMovie.rating}</p>
                             </div>
-                            <div class="card-footer">
+                            <div class=" card-footer fav-footer">
                                 <button type="button" id="edit">Edit</button>
                                 <button type="button" id="delete">Delete</button>
                             </div>
@@ -78,22 +78,21 @@ function searchMovies(title) {
         })
         .then(data => {
             console.log(data);
-            const searchData = data;
+            const searchData = data.Search;
             let searchOutput = '';
-            $.each(searchData, (index, newMovie) => {
-                searchOutput =+ `<div id="card" class="card-deck" style="margin: 4rem;">
-                        <div class="card">
-                        <h5 class="card-title">${newMovie.title}</h5>
-                            <div class="card-body">
-                                <img class="card-img-top" src="${newMovie.poster}" alt="Movie Title" style="width: 250px; height: 30vh;">
-                                <p class="director">Director: ${newMovie.director}</p>
-                                <p class="rated">Rated: ${newMovie.rated}</p>
-                                <p class="genre">Genre: ${newMovie.genre}</p>
-                                 <p class="rating">Rating: ${newMovie.rating}</p>
+            $(this).each(searchData, (index, newMovie) => {
+                searchOutput =+ `<div id="searchCard" class="card" style="margin: 4rem;">
+                        <div class="search-card-content">
+                        <h5 class="search-title">${newMovie.title}</h5>
+                            <div class="search-body">
+                                <img class="search-poster" src="${newMovie.poster}" alt="Movie Title" style="width: 250px; height: 30vh;">
+                                <p class="search-director">Director: ${newMovie.director}</p>
+                                <p class="search-rated">Rated: ${newMovie.rated}</p>
+                                <p class="search-genre">Genre: ${newMovie.genre}</p>
+                                 <p class="search-rating">Rating: ${newMovie.rating}</p>
                             </div>
-                            <div class="card-footer">
-                                <button type="button" id="edit">Edit</button>
-                                <button type="button" id="delete">Delete</button>
+                            <div class="card-footer search-footer">
+                                <button type="button" id="add">ADD</button>
                             </div>
                         </div>
                     </div>`;
